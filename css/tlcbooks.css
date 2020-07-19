@@ -2,7 +2,7 @@ body {
   color: #404040;
   font-size: 16px;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
-  background-color: #e8e6bf; }
+  background-color: #E8E6BF; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
@@ -87,7 +87,6 @@ blockquote small {
     margin-bottom: 0;
     z-index: 2;
 }
-.ui-slider-handle:focus,
 .navbar-toggle {
   outline: 0 !important; }
 .heart {
@@ -98,25 +97,42 @@ blockquote small {
 }
 .toppage-memo{
   margin-bottom: 0;
-  padding-top: 0;
+  padding-top: 2px;
   background-color:#c3eae6;
     display: flex;
 }
 .toppage-memo-text{
-  padding: 5px;
-  font-size: 14px; }
+  color: #202020;
+  font-size: 14px; 
+  margin-bottom:3px;
+  margin-top: 2px;
+}
+
+#memo-text {
+  animation-name: dropShadowAnimate;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+@keyframes dropShadowAnimate {
+  100% {text-shadow: 10px 20px 20px white;}
+
+}
+.splash-small-text{
+  margin-top: 0;
+  color: #202020;
+  font-size: 16px; 
+  text-shadow: 0 0 10px #E8E6BF;
+}
+
 .landing-banner {
   padding: 0;
   background-size: auto;
-  min-height: 570px; 
+  min-height: 520px; 
   background-color:#c3eae6;
   background-image: url('images/books.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-.landing-banner .bannertext {
-  padding-top: 8%;
-  text-align: left;
-  z-index: 3; } 
+
 
