@@ -2,7 +2,7 @@ body {
   color: #404040;
   font-size: 16px;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
-  background-color: #E8E6BF; }
+  background-color: #FEFAD1; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
@@ -133,6 +133,29 @@ blockquote small {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+}
+.section-overview{
+   padding: 20px 40px 10px 40px;
+}
+.section-overview-header-text{
+   padding: 20px 40px 30px 40px;
+   color: #606060;
+}
+.overview-card{
+    border-radius: 15px;
+}
+ .overview-image{
+  height: 130px;
+  border-radius: 15px 15px 0 0;
+ }
+.overview-avatar{
+  width: 160px;
+  height: : 160px;
+  margin: auto;
+  margin-top: -110px;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
