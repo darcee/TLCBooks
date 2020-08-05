@@ -1,0 +1,21 @@
+<script type="text/javascript">
+  import Amplify, { Auth } from 'aws-amplify';
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
+</script>
+
+
+<form action="" method="post">
+
+    <label for="uname"><b>Username</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+<br>
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+<br>
+    <label for="pswc"><b>Confirm Password</b></label><br>
+    <input type="passwordconfirm" placeholder="Confirm Password" name="pswc" required><br>
+<br>
+    <button type="submit">Login</button><br>
+
+</form>
