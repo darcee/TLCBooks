@@ -2,7 +2,7 @@ body {
   color: #404040;
   font-size: 16px;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
-  background-color: #FEFAD1; }
+  background-color: #fefad1; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
@@ -90,7 +90,7 @@ blockquote small {
 .navbar-toggle {
   outline: 0 !important; }
 .heart {
-  color: #FFCBC8 !important;
+  color: #ffcbc8 !important;
 }
 .top-navbar{
    background-color:#fff; 
@@ -121,7 +121,7 @@ blockquote small {
   margin-top: 0;
   color: #202020;
   font-size: 16px; 
-  text-shadow: 0 0 10px #E8E6BF;
+  text-shadow: 0 0 10px #e8e6bf;
 }
 
 .landing-banner {
@@ -157,5 +157,9 @@ blockquote small {
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.btn-soft {
+  border-color: #ffcbc8;
+  background-color: rgba(255, 250, 240, 0.5);
+  margin-right: 10px;
+}
 
