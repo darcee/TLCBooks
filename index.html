@@ -116,26 +116,46 @@
 </footer>
 <!-- This is the registration Modal !-->
 <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Modal title</h4>
+        <h4 class="modal-title soft-text" id="exampleModalLabel">Register</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+            <form action="" method="post">
       <div class="modal-body">
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. </p>
+            <div class="input-group">
+  <input type="email" required name="email">
+  <span class="highlight"></span>
+  <span class="bar"></span>
+  <label>Email</label>
+</div>
+
+<div class="input-group">
+  <input type="password" required name="password">
+  <span class="highlight"></span>
+  <span class="bar"></span>
+  <label>Password</label>
+</div>
+
+<div class="input-group">
+  <input type="password" required name="passwordconfirm">
+  <span class="highlight"></span>
+  <span class="bar"></span>
+  <label>Confirm Password</label>
+</div>
+
       </div>
       <div class="modal-footer">
-        <div class="left-side">
-            <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Never mind</button>
-        </div>
-        <div class="divider"></div>
-        <div class="right-side">
-            <button type="button" class="btn btn-danger btn-simple">Delete</button>
-        </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
+      </form>
     </div>
   </div>
+</div>
 <!--  End Registration Modal -->
 
 </body>
