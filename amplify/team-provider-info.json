@@ -1,0 +1,22 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tlcbooks-master-161159-authRole",
+            "UnauthRoleArn": "arn:aws:iam::786247535145:role/amplify-tlcbooks-master-161159-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::786247535145:role/amplify-tlcbooks-master-161159-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-tlcbooks-master-161159-deployment",
+            "UnauthRoleName": "amplify-tlcbooks-master-161159-unauthRole",
+            "StackName": "amplify-tlcbooks-master-161159",
+            "StackId": "arn:aws:cloudformation:us-west-2:786247535145:stack/amplify-tlcbooks-master-161159/90e64fb0-d9cc-11ea-8c71-066ac882f2e8",
+            "AmplifyAppId": "d3lnrttypaaxmx"
+        },
+        "categories": {
+            "auth": {
+                "tlcbooksab38d2e9": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\" \",\"client_secret\":\" \"},{\"ProviderName\":\"Google\",\"client_id\":\" \",\"client_secret\":\" \"},{\"ProviderName\":\"LoginWithAmazon\",\"client_id\":\" \",\"client_secret\":\" \"}]"
+                }
+            }
+        }
+    }
+}
