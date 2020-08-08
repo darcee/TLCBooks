@@ -1,3 +1,13 @@
+/*  
+Custom Colors - 
+heart pink - #ffcbc8
+candlelight cream - #fefad1
+whisper blue - #c3ebe6  (195, 235, 230, 1)
+enhance blue - #64c8be (100, 200, 190, 1)
+ocean text - #379b91 (55, 155, 145, 1)
+
+*/
+
 body {
   color: #404040;
   font-size: 16px;
@@ -100,7 +110,7 @@ blockquote small {
 .toppage-memo{
   margin-bottom: 0;
   padding-top: 2px;
-  background-color:#c3eae6;
+  background-color:#c3ebe6;
     display: flex;
 }
 .toppage-memo-text{
@@ -130,7 +140,7 @@ blockquote small {
   padding: 0;
   background-size: auto;
   min-height: 520px; 
-  background-color:#c3eae6;
+  background-color:#c3ebe6;
   background-image: url('images/books.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -166,38 +176,42 @@ blockquote small {
 }
 .btn-soft:hover, .btn-soft:focus, .btn-soft:active{
   background-image: radial-gradient(ellipse, rgba(255, 250, 240, 0.3) 40%, rgba(255, 250, 240, 1) );
+  box-shadow: none;
+  box-shadow: 0 4px 8px 0 rgba(255, 250, 240, 0.2), 0 6px 20px 0 rgba(255, 250, 240, 0.19);
 }
 .modal-content {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(255, 250, 240, 0.4), 0 6px 20px 0 rgba(255, 250, 240, 0.3);
   }
 .modal-header {
-  border-bottom: 1px solid #c3eae6;
+  border-bottom: 1px solid #c3ebe6;
   padding: 20px;
   text-align: center; }  
  .modal-title{
   margin: auto;
   padding-left: 100px; 
   }
-.modal-form{
-  width: 80%;
-  border-radius: 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid grey;
-}
 .input-group {
   position: relative;
   margin: 40px 20px;
 }
-
+.input-save {
+  border-color: #ffcbc8;
+  background-color: rgba(195, 235, 230, 0.8);
+  margin: auto;
+}
+.input-save:hover, .input-save:focus, .input-save:active{
+  background-image: radial-gradient(ellipse, rgba(100, 200, 190, 0.3) 40%, rgba(100, 200, 190, 1) );
+  box-shadow: none;
+  box-shadow: 0 4px 8px 0 rgba(195, 235, 230, 1), 0 6px 20px 0 rgba(195, 235, 230, 0.8);
+}
 input {
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
+  font-size: 14px;
+  padding: 10px 10px 5px 5px;
   display: block;
-  width: 300px;
+  width: 90%;
   border: none;
-  border-bottom: 1px solid #757575;
+  border-bottom: 2px solid grey;
 }
 
 input:focus {
@@ -207,27 +221,26 @@ input:focus {
 label {
   color: #999;
   font-size: 18px;
-  font-weight: normal;
   position: absolute;
   pointer-events: none;
   left: 5px;
   top: 10px;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
+  transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
 }
 
 input:focus ~ label,
 input:valid ~ label {
   top: -20px;
   font-size: 14px;
-  color: #4285f4;
+  color: #379b91;
 }
 
 .bar {
   position: relative;
   display:block;
-  width:315px;
+  width:90%;
 }
 
 .bar:before,
@@ -237,10 +250,10 @@ input:valid ~ label {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #4285f4;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
+  background: #379b91;
+  transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
 }
 
 .bar:before {
@@ -267,21 +280,21 @@ input:focus ~ .bar:after {
 }
 
 input:focus ~ .highlight {
-  -webkit-animation: inputHighlighter 0.3s ease;
-  -moz-animation: inputHighlighter 0.3s ease;
-  animation: inputHighlighter 0.3s ease;
+  -webkit-animation: inputHighlighter 0.6s ease;
+  -moz-animation: inputHighlighter 0.6s ease;
+  animation: inputHighlighter 0.6s ease;
 }
 
 /* animations */
 @-webkit-keyframes inputHighlighter {
-  from { background: #4285f4; }
+  from { background: #379b91; }
   to   { width: 0; background: transparent; }
 }
 @-moz-keyframes inputHighlighter {
-  from { background: #4285f4; }
+  from { background: #379b91; }
   to   { width: 0; background: transparent; }
 }
 @keyframes inputHighlighter {
-  from { background: #4285f4; }
+  from { background: #379b91; }
   to   { width: 0; background: transparent; }
 }
