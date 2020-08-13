@@ -188,8 +188,9 @@ blockquote small {
   padding: 20px;
   text-align: center; }  
  .modal-title{
+  width: 100%;
   margin: auto;
-  padding-left: 100px; 
+  padding-left: 45px; 
   }
 .input-group {
   position: relative;
