@@ -119,6 +119,7 @@ var TLCBooks = window.TLCBooks || {};
         signin(email, password,
             function signinSuccess() {
                 console.log('Successfully Logged In');
+                 console.log(TLCBooks.authToken);
                 $('#loginModal').modal('hide');
             },
             function signinError(err) {
